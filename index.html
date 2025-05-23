@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do App</title>
+  <link rel="icon" type="image/svg+xml" href="./images/icon.png" sizes="any" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="img-container">
+      <img src="./images/icon.png" alt="logo" />
+    </div>
+    <h1>My To-Do App</h1>
+  </div>
+
+  <div class="container">
+    <div class="todo-app">
+      <h2><img src="./images/logo.jpg" alt="logo" /> To-Do List</h2>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add a new task..." required />
+        <button id="add-button">Add</button>
+      </div>
+      <ul id="list-container">
+        <li>Learning Web Dev! Keep it up! Learn First HTML,CSS and Js. Then move on to any Framework.
+          <span>
+            <img src="./images/Edit.png" alt="edit">
+            <img src="./images/remove.png" alt="remove">
+          </span>
+        </li>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
