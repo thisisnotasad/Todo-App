@@ -1,10 +1,15 @@
 # MY TO-DO APP ✅  
-*A Modern, Responsive To-Do App with Local Storage*
 
 ![alt text](./images/image.png)
 ![alt text](./images/image-1.png)
 ![alt text](./images/image-2.png)
 
+*A Modern, Responsive To-Do App with Local Storage*
+
+## Live Demo
+```
+https://thisisnotasad.github.io/Todo-App/
+```
 
 ## 🌟 Features  
 - **Add tasks** quickly with clean input  
